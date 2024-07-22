@@ -75,6 +75,7 @@ class Organization extends Model
             config('hasob-foundation-core.hasob_features')!=null ? config('hasob-foundation-core.hasob_features') : [] ,
             config('hasob-scola-gradebook.hasob_features')!=null ? config('hasob-scola-gradebook.hasob_features') : [] ,
             config('tetfund-remote-monitoring.hasob_features')!=null ? config('tetfund-remote-monitoring.hasob_features') : [] ,
+            config('dmo-savings-bond.hasob_features')!=null ? config('dmo-savings-bond.hasob_features') : [] ,
         );
 
         //Log::debug(config('*.hasob_features'));
